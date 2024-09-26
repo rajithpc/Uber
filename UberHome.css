@@ -1,0 +1,347 @@
+.main-header{
+    background-color: #000000;
+    width: 100%;
+    height: 64px;
+}
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header-tab{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.position1-title{
+    font-size: 20px;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    font-size: 24px;
+    color: #fff;
+}
+.menubar-buttons{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    border-radius: 30px;
+    padding: 10px 12px;
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    border-color:transparent;
+}
+
+.menubar-buttons:hover{
+    background-color: rgb(39, 38, 38);
+}
+.button-svg{
+    display: flex;
+    align-items: center;
+}
+.left-menu{
+    width: 400px;
+    margin-left: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-menu svg{
+    width: 15px;
+    height: 15px;
+}
+.right-menu{
+    margin-right: 150px;
+}
+.portion1{
+    padding-top: 65px;
+    width: 100%;
+    height:auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.portion1-left{
+    align-content: center;
+    position: relative;
+}
+.yello-line{
+    color: #fafaa1;
+    border-left: 1px solid;
+    height: 50px;
+    position: absolute;
+    top: 410px;
+    left: 23px;
+}
+.portion1-right{
+    align-content: center;    
+}
+.input-container1 {
+    background-color: #fff;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.portion1-right-img{
+    width: 550px;
+    height: 650px;
+    margin-bottom: 100px;
+}
+.input-area{
+    background-color: transparent;
+    border:none;
+    font-size: 16px;
+    width: 100%;
+}
+.input-icon-location{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+}
+.input-icon{
+    margin-left: 12px;
+}
+.input-field{
+    margin-left: 10px;
+    width: 100%;
+}
+.description{
+    color: #fff;
+    font-size: 16px;
+}
+.price-button{
+    margin-top: 25px;
+    width: 130px;
+    height: 45px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 16px;
+}
+
+    /* Portion 2 */
+h3{
+    margin-left: 40px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+}
+.portion2-container{
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 50px;
+
+}
+.Suggestion-item{
+    display: flex;
+    background-color: #F3F3F3;
+    border-radius: 5px;
+    width: calc((100%) / 3);
+    padding: 16px;
+    height: 125px;
+    font-size: 12px;
+}
+.Suggestion-item1{
+    display: flex;
+    background-color: #F3F3F3;
+    border-radius: 5px;
+    width: calc((100%) / 3);
+    padding: 16px;
+    height: 125px;
+    margin-right: 20px;
+    font-size: 12px;
+
+}
+.Suggestion-item2{
+    display: flex;
+    background-color: #F3F3F3;
+    border-radius: 5px;
+    width: calc((100%) / 3);
+    padding: 16px;
+    height: 125px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+.list-item-title{
+    color:black;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.details-button{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    border-radius: 30px;
+    padding: 10px 12px;
+    background-color: #fff;
+    border-color: transparent;
+}
+.list-container{
+    display: flex;
+}
+
+    /* Portion 3 */
+
+.portion3-container{
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.portion3-img{
+    width: 558px;
+    height: 558px;
+}
+.Portion3-part{
+    display: flex;
+    margin-top: 100px;
+}
+.position3-title{
+    color: black;
+}
+.underline{
+    background-color: aliceblue;
+    height: 2px;
+}
+.portion3-textpart-container{
+    padding: 100px;
+}
+.possition3-title{
+    font-size: 25px;
+}
+.portion3-buttons-container{
+    display: flex;
+    align-items: center;
+}
+.signin-links{
+    margin-left: 20px;
+    font-size: 17px;
+}
+.getstart-buttons{
+    background-color: black;
+    border-radius: 5px;
+    width:fit-content;
+    padding: 10px;
+}
+.getstart-button-field{
+    background-color: transparent;
+    border:none;
+    color: #fff;
+    font-size: 16px;
+}
+
+    /* Portion 4 */
+
+.portion4-container{
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: #F6F6F6;
+}
+.portion4-qr-items-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.portion4-title{
+    font-size: 40px;
+}
+.portion4-qr-item1{
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+.portion4-qr-item2{
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+.portion4-qr-pqrt-text1{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.portion4-qr-pqrt-text2{
+    font-size: 20px;
+    margin-left: 20px;
+}
+/* Footer */
+.footer-container{
+    background-color: black;
+    color: #fff;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.help-center{
+    margin-top: 30px;
+}
+.footer-list{
+    display: flex;
+    font-size: 16px;margin-bottom: 100px;
+    margin-top: 75px;
+}
+.footer-list-item{
+    width: 300px;
+    list-style: none;
+    line-height: 30px;
+    padding-inline-start: 0px;
+}
+.footer-svg-section{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-socialmedias{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.footer-language-and-location{
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+}
+.store-logos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+}
+.appstore-img{
+    margin-left: 10px;
+}
+.bottom-text-container{
+    color: #AFAFAF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    font-size: small;
+    margin-bottom: 20px;
+}
+.bottom-text-part2{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.list-head{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
